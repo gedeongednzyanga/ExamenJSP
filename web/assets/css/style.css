@@ -1,0 +1,91 @@
+
+button[type=submit] {
+    margin-top: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 4% auto 15% auto;
+    width: 40%;
+    padding-bottom: 30px;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close :hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    animation: zoom 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.form-control{
+    border: 1px solid #A8A8A8;
+}
+
+.user-list{
+    height: 234px;
+    overflow: auto;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.well{
+    margin-bottom: 2px;
+    padding: 12px;
+    width: 70%;
+}
+
+#ftco-nav{
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
